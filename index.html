@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to First Flask!</h1>
+        <a href="/about">About</a>
+        
+        <h2>Enter Your Name:</h2>
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Enter your name">
+            
+            <h2>Select Category:</h2>
+            <select name="category" id="category">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed by Zahwa | 2024</p>
+    </footer>
+</body>
+</html>
